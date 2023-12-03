@@ -47,9 +47,20 @@
   }
 }
 
-
 @media only screen and (max-width: 600px) {
   .carousel-container {
     max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel-container {
+    max-width: 360px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .carousel-container {
+    max-width: 300px;
   }
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import "./NotificationCard.scss";
 import Checkmark from "../../../../assets/icons/Checkmark";
 import Clock from "../../../../assets/icons/Clock";

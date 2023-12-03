@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Testimonials.scss";
 import Vector from "../../assets/Vector.png";
 import Carousel from "../infinite-auto-carousel/Carousel";

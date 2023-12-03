@@ -1,4 +1,3 @@
-import React from "react";
 import "./NotificationCard.scss";
 import NotificationBell from "../../../../assets/icons/NotificationBell";
 function NotificationCard() {

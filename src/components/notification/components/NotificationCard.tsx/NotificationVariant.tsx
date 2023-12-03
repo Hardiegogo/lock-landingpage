@@ -1,4 +1,3 @@
-import React from "react";
 import "./NotificationCard.scss";
 import Stats from "../../../../assets/icons/Stats";
 import Checkmark from "../../../../assets/icons/Checkmark";

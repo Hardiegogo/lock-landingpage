@@ -1,4 +1,3 @@
-import React from "react";
 import "./TestimonialCard.scss";
 import { IAuthor } from "../../Testimonials";
 

@@ -1,10 +1,6 @@
-import React from "react";
-
 import "./Notification.scss";
 import Bell from "../../assets/icons/Bell";
 import AutoCarousel from "../infinite-auto-carousel/AutoCarousel";
-
-
 
 function Notification() {
   return (
@@ -20,7 +16,7 @@ function Notification() {
         </p>
       </div>
       <div className="notificationCarousel">
-        <AutoCarousel/>
+        <AutoCarousel />
       </div>
     </div>
   );

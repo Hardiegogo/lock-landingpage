@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Carousel.scss";
 import { IAuthor } from "../testimonials/Testimonials";
 import TestimonialCard from "../testimonials/components/testimonial-card/TestimonialCard";

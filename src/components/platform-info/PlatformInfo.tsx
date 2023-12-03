@@ -1,7 +1,6 @@
-import React from "react";
 import platform from "../../assets/platform.png";
 import "./PlatformInfo.scss";
-import Eye from "../../assets/eye.png"
+import Eye from "../../assets/eye.png";
 
 function PlatformInfo() {
   return (
@@ -11,7 +10,7 @@ function PlatformInfo() {
       </div>
       <div className="platformContent">
         <header>
-          <img src={Eye} style={{width:"32px",height:"32px"}} />
+          <img src={Eye} style={{ width: "32px", height: "32px" }} />
         </header>
         <h4>
           Watch what the <br /> whales are doing

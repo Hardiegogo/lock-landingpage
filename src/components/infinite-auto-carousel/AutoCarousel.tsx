@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./Carousel.scss";
 import NotificationCard from "../notification/components/NotificationCard.tsx/NotificationCard";
 import NotificationVariant from "../notification/components/NotificationCard.tsx/NotificationVariant";

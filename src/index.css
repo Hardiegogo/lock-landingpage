@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+html {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: radial-gradient(
+    92.19% 89.74% at 6.27% 91.27%,
+    rgba(31, 169, 17, 0.81) 17.21%,
+    #2f15d0 64.58%,
+    rgba(25, 25, 26) 100%
+  );
+  font-family: "Inter", sans-serif;
+}
+
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}

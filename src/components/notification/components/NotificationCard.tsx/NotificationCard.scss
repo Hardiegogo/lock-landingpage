@@ -1,0 +1,95 @@
+.notificationCard {
+  position: relative;
+  min-height: 10.6rem;
+  padding: 14px;
+  width: 11.75rem;
+  height: fit-content;
+  border-radius: 8.4px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 27.5%,
+      rgba(22, 93, 255, 0.16) 157.71%
+    ),
+    #fff;
+  box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04),
+    0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
+  h3 {
+    color: var(--grey-900, #19191a);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 16.8px */
+  }
+  input {
+    border-radius: 5.6px;
+    border: 0.7px solid var(--neutral-300, #d4d4d4);
+    background: #fff;
+    width: 100%;
+    padding: 8.4px 11.2px;
+  }
+  .save {
+    position: absolute;
+    top: 4px;
+    right: 13.7px;
+    color: var(--grey-900, #19191a);
+
+    font-family: Inter;
+    font-size: 9.1px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+
+  .variantInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    height: fit-content;
+    select {
+      border-radius: 2.8px;
+      background: var(--grey-50, rgba(229, 229, 230, 0.5));
+      border: none;
+      outline: none;
+      option {
+        color: var(--grey-900, #19191a);
+        font-family: Inter;
+        font-size: 11.2px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+      }
+    }
+  }
+  .Two {
+    gap: 8.4px;
+  }
+}
+.variant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .notificationCard {
+    width: 12rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .notificationCard {
+    width: 12.4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .notificationCard {
+    width: 13rem;
+  }
+}

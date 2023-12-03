@@ -1,0 +1,92 @@
+.platformInfo {
+  display: flex;
+  margin-top: 5.5rem;
+  gap: 11px;
+  width: 100%;
+  .platformImg {
+    width: 21rem;
+    height: 19rem;
+    overflow: hidden;
+    img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+    }
+  }
+
+  .platformContent {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 44%;
+    h4 {
+      color: var(--Background---F2F2F2, #f2f2f2);
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+      margin: 1rem 0px;
+      text-align: right;
+    }
+    p {
+      color: var(--Background---F2F2F2, #f2f2f2);
+      margin: 0;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+      text-align: right;
+    }
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .platformInfo {
+    .platformContent {
+      h4 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .platformInfo {
+    padding-right: 2rem;
+    .platformImg {
+      flex: 1;
+    }
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .platformInfo {
+    padding-right: 4rem;
+    align-items: center;
+    .platformImg {
+      flex: 1;
+      height: 70%;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .platformInfo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    gap: 2.4rem;
+    .platformContent {
+      width: 70%;
+    }
+    .platformImg {
+      align-self: center;
+      width: 65%;
+    }
+  }
+}

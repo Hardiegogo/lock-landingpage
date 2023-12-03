@@ -1,0 +1,90 @@
+.signupContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 45%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 14px 64px -4px rgba(24, 39, 75, 0.12),
+    0px 8px 22px -6px rgba(24, 39, 75, 0.12);
+}
+
+.signupForm {
+  width: 22.8125rem;
+  height: 21.6875rem;
+  margin: auto;
+}
+
+.signupForm .emailInput {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 21rem;
+  border-radius: 0.5rem;
+  padding: 20px 24px;
+  border: 1px solid var(--grey-100, #e5e5e6);
+  background: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04), 0 4px 10px 0 rgba(0, 0, 0, 0.04);
+  &::placeholder {
+    color: var(--grey-200, #cacbcc);
+  }
+
+  &::-ms-input-placeholder {
+    color: var(--grey-200, #cacbcc);
+  }
+}
+
+.signupForm .footerText {
+  color: var(--grey-900, #19191a);
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2; /* 19.2px / 16 = 1.2 */
+}
+
+.formHeading {
+  color: var(--grey-300, #b0b1b3);
+  margin-left: 13px;
+  font-family: Inter;
+  font-size: 2.4375rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.primaryBtn {
+  border-radius: 0.5rem;
+  border: 1px solid var(--grey-900, #19191a);
+  background: var(--grey-900, #19191a);
+  width: 21rem;
+  height: 3.75rem;
+  padding: 1.125rem 1.75rem;
+  margin-left: 13px;
+  margin-right: 13px;
+  color: white;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.error{
+    color: red;
+    font-size: 0.8rem;
+    margin: none;
+    padding: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px ) {
+    .signupContainer{
+        position: relative;
+        width: 100%;
+    }
+  }
+  
